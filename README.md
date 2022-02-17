@@ -7,6 +7,17 @@
 #### Faculty : Dr.Deepak Sharma
 #### College : K J Somaiya College Of Engineering
 # CSS_IA1_Image_encryption_using_rubiks_cube_algorithm
+## Research paper referred : https://www.hindawi.com/journals/jece/2012/173931/
+
+## Functionalities implemented:
+1. Generation and storage of random key as base64 strings.
+2. Encryption of images using rubiks cube algorithm.
+3. Decryption of the encrypted images.
+
+## Improvements implemented:
+
+The rubiks cube algorithm is defined on gray scale images but we have generalized it over 3 channels (R,G,B) to encrypt and decrypt RGB images.
+
 ## Algorithm Overview
 
 Given an input image having the three R,G,B matrices of size `M X N`
@@ -49,16 +60,16 @@ Hyperparameters include
 - Python3 ( https://www.python.org/downloads/ )
 
 - opencv - Run `pip install opencv-python`
-## Running 
+## Execution
 $ python3 image_encryption_rubiks_cube_algorithm.py\
-Before running :\
+Before Execution :\
 ![image](https://user-images.githubusercontent.com/63907547/154422252-cd5785d5-c0ec-4306-b7d2-5c280785101f.png)\
-After running :\
+After Execution :\
 ![image](https://user-images.githubusercontent.com/63907547/154423133-11f2b775-a219-43c0-afa3-d86dd1b62042.png)\
 Encrypted image is stored at `ENCRYPTED_IMAGE.jpeg`\
 Decrypted image is stored at `DECRYPTED_IMAGE.jpeg`\
 & key is stored at `key.txt `\
-Sample Output : 
+## Sample Output : 
 ![image](https://user-images.githubusercontent.com/63907547/154440209-55ce1814-d56e-4c6c-bb55-9a44b74125da.png)
 
 
