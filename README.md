@@ -7,7 +7,8 @@
 #### Faculty : Dr.Deepak Sharma
 #### College : K J Somaiya College Of Engineering
 # CSS_IA1_Image_encryption_using_rubiks_cube_algorithm
-## Research paper referred : https://www.hindawi.com/journals/jece/2012/173931/
+## Research paper referred : 
+https://www.hindawi.com/journals/jece/2012/173931/
 
 ## Functionalities implemented:
 1. Generation and storage of random key as base64 strings.
@@ -60,6 +61,7 @@ Hyperparameters include
 - Python3 ( https://www.python.org/downloads/ )
 
 - opencv - Run `pip install opencv-python`
+- numpy - Run `pip install numpy`
 ## Execution
 $ python3 image_encryption_rubiks_cube_algorithm.py\
 Before Execution :\
