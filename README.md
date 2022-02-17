@@ -42,7 +42,7 @@ Hyperparameters include
 
 
 #### B. Decryption
-  Given an encrypted image, vectors `Kr` and `Kc` & `ITER_MAX` , decryption can be done by following the reverse procedure - XORing pixels → Rolling Columns → Rolling Rows `ITER_MAX` number of times
+  Given an encrypted image, vectors `Kr` and `Kc` & `ITER_MAX` , decryption can be done by following the reverse procedure - XORing pixels → Reverse direction Rolling Columns → Reverse direction Rolling Rows `ITER_MAX` number of times
 
 ## Prerequisites
 
@@ -57,7 +57,10 @@ After running :\
 ![image](https://user-images.githubusercontent.com/63907547/154423133-11f2b775-a219-43c0-afa3-d86dd1b62042.png)\
 Encrypted image is stored at `ENCRYPTED_IMAGE.jpeg`\
 Decrypted image is stored at `DECRYPTED_IMAGE.jpeg`\
-& key is stored at `key.txt `
+& key is stored at `key.txt `\
+Sample Output : 
+![image](https://user-images.githubusercontent.com/63907547/154440209-55ce1814-d56e-4c6c-bb55-9a44b74125da.png)
+
 
 ## Example -
 
