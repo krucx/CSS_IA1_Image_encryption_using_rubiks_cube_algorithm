@@ -80,19 +80,19 @@ def input_image():
         image = cv2.imread(file_name,cv2.IMREAD_COLOR)
         rgb_image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
         show_image(rgb_image,"ORIGINAL IMAGE")
-        return rgb_image
+        return rgb_image,file_name
     else:
         print("ERROR : FILE DOESNT EXIST")
         quit()
 
 def main():
     itr_max = 3
-    image = input_image()
-    generate_random_key(image.shape[0],image.shape[1],itr_max)
-    encrypted_image = encryption(image)
-    show_image(encrypted_image,"ENCRYPTED_IMAGE",save=True)
-    decrypted_image = decryption(image)
-    show_image(decrypted_image,"DECRYPTED_IMAGE",save=True)
+    image,file_name = input_image()
+    generate_random_key(image.shape[0],image.shape[1],itr_max,f"key({file_name}).txt")
+    encrypted_image = encryption(image,f"key({file_name}).txt")
+    show_image(encrypted_image,f"ENCRYPTED_IMAGE({file_name})",save=True)
+    decrypted_image = decryption(image,f"key({file_name}).txt")
+    show_image(decrypted_image,f"DECRYPTED_IMAGE({file_name})",save=True)
     cv2.waitKey(0) 
 
 main()
