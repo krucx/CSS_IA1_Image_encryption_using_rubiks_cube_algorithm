@@ -63,14 +63,17 @@ Hyperparameters include
 ## Execution
 $ python3 image_encryption_rubiks_cube_algorithm.py\
 Before Execution :\
-![image](https://user-images.githubusercontent.com/63907547/154422252-cd5785d5-c0ec-4306-b7d2-5c280785101f.png)\
+![image](https://user-images.githubusercontent.com/63907547/154470122-f6e0c6af-8976-4acb-aac2-b97d7c0e67b8.png)
+
 After Execution :\
-![image](https://user-images.githubusercontent.com/63907547/154423133-11f2b775-a219-43c0-afa3-d86dd1b62042.png)\
-Encrypted image is stored at `ENCRYPTED_IMAGE.jpeg`\
-Decrypted image is stored at `DECRYPTED_IMAGE.jpeg`\
-& key is stored at `key.txt `\
+![image](https://user-images.githubusercontent.com/63907547/154470015-66b67c05-7328-4ec7-9a45-402f93d17d2c.png)
+
+Encrypted image is stored at `ENCRYPTED_IMAGE(original.png).jpeg`\
+Decrypted image is stored at `DECRYPTED_IMAGE(original.png).jpeg`\
+& key is stored at `key(original.png).txt `\
 ## Sample Output : 
-![image](https://user-images.githubusercontent.com/63907547/154440209-55ce1814-d56e-4c6c-bb55-9a44b74125da.png)
+![sample](https://user-images.githubusercontent.com/63907547/154469506-2edbbf53-f1ac-4366-a90c-a94fa9b3da64.jpg)
+
 
 
 ## Example -
@@ -82,7 +85,8 @@ Encryted Image : \
 Decrypted Image :\
 ![image](https://user-images.githubusercontent.com/63907547/154424302-077656d0-9382-4241-a50e-bb10314e3c73.png)\
 key.txt :\
-![image](https://user-images.githubusercontent.com/63907547/154424748-11915b9a-57f4-4c9b-92d6-2af5d35acc96.png)
+![image](https://user-images.githubusercontent.com/63907547/154470441-6f6cb88f-07ad-4a11-96a3-da9cf3575a5b.png)
+
 
 
 
